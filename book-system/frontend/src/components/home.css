@@ -1,0 +1,60 @@
+body
+{
+  background-color: rgb(113, 151, 208);
+}
+.home-container
+{
+  display: flex;
+  width: 60rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  align-items: center;  
+  background-color: rgb(158, 192, 123);
+  border-radius: 20px;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.functions
+{
+  display: flex;
+  gap: 1rem;
+}
+.functions span
+{
+  cursor: pointer;
+}
+.header
+{
+  display: flex;
+  align-items: center;
+  margin-top: 8rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.header h1
+{
+  flex: 1;
+}
+.header span 
+{
+  border: 3px solid black;
+  padding: 2px;
+  cursor: pointer;
+}

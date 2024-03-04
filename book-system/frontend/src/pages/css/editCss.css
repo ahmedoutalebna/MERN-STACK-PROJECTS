@@ -1,0 +1,16 @@
+.edit-container
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    gap: 3rem;
+    transform: translate(-50%, -50%);
+}
+.left-arrow
+{
+    position: absolute;
+    left: -20%;
+    cursor: pointer;
+}
