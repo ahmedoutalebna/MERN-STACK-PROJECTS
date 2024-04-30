@@ -1,0 +1,87 @@
+.header-content
+{
+    display: flex;
+    background-color: dimgray;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-around;   
+}
+.header-content h2
+{
+    cursor: pointer;
+}
+.header-content h2:hover
+{
+    text-decoration: underline;
+
+}
+.sign-content
+{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.signin-section, .signup-section
+{
+    display: flex;
+    gap: 4px;
+}
+.signin-section span, .signup-section span
+{
+    font-size: 17px;
+}
+.signin-section span:hover, .signup-section span:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.profile-container
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+}
+.profile-container span
+{
+    cursor: pointer;
+}
+.profile
+{
+    border: 2px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50%;
+    background-color: black;
+    
+}
+.logout
+{
+    color: rgba(123, 25, 25, 0.926);
+    font-weight: bold;
+}
+.logout:hover
+{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.sub-container {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem; /* Shorthand for padding */
+}
+.sub-container span
+{
+    white-space: nowrap;
+}
+
+  
+  
+

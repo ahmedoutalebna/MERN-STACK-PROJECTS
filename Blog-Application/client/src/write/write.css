@@ -1,0 +1,89 @@
+.write-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 3rem;
+}
+.write-wrapper img
+{
+    width: 70%;
+    height: 20rem;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.informations
+{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    gap: 5px;
+}
+.informations label
+{
+    font-size: 1.2rem;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+}
+.title-div
+{
+    width: 100%;
+    flex: 1;
+}
+.text
+{
+
+    width: 100%;
+    text-align: left;
+    border: none;
+    padding: 5px;
+    font-size: 2rem;
+    
+}
+.text:focus
+{
+    outline-style: none;
+}
+.text::placeholder
+{
+    font-size: 1.5rem;
+    color: gray;
+}
+.publish-button
+{
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(17, 90, 65);
+    border: none;
+    position: absolute;
+    right: 14.5%;
+    cursor: pointer
+}
+.story
+{
+    display: flex;
+    width: 70%;
+    padding: 1rem;
+    border: none;
+    font-size: 2rem;
+}
+.story:focus
+{
+    outline-style: none;
+}
+.story::placeholder
+{
+    font-size: 1.5rem;
+}
+.cadre
+{
+    width: 70%;
+    height: 20rem;
+    border: 2px dashed blue;
+}

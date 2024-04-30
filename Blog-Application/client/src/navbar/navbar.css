@@ -1,0 +1,85 @@
+.nav-container
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    margin-bottom: 3rem;
+    z-index: 1;
+    background-color: bisque;
+
+}
+.left-part
+{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.left-part i
+{
+    font-size: 1.5rem;
+}
+.center-part
+{
+    flex: 6;
+}
+.center-part ul
+{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.center-part ul li
+{
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+}
+.center-part ul li:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.right-part
+{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+.right-part img
+{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.right-part i
+{
+    font-size: 22px;
+}
+.login-register 
+{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.login-register li
+{
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(112, 104, 104);
+}
+.login-register li:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.sidebar-container
+{
+    flex: 3;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.sidebar-container hr
+{
+    width: 70%;
+    background-color: rgb(212, 212, 212);
+    border: none;
+    height: 2px;
+}
+.sidebar-container img
+{
+    width: 70%;
+    height: 35rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+.sidebar-container p
+{
+    width: 60%;
+    text-align: center;
+}

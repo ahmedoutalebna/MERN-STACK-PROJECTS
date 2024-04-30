@@ -1,0 +1,11 @@
+.posts-container
+{
+    flex: 6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+
+

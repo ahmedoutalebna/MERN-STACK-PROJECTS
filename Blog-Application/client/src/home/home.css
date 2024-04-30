@@ -1,0 +1,12 @@
+.home-container
+{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+.sidePost-container
+{
+    display: flex;
+}

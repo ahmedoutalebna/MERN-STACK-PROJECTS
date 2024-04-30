@@ -1,0 +1,44 @@
+.second-header-part
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+}
+.stack-app
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 12%;
+}
+.stack
+{
+    font-size: 2em;
+}
+.app
+{
+    font-size: 6.5em;
+    color: rgb(142, 137, 137);
+}
+/* .stack
+{
+    font-size: 2em;   
+
+}
+.app
+{
+    position: absolute;
+    top: 12%;
+    font-size: 7em;
+} */
+.second-header-part img
+{
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}

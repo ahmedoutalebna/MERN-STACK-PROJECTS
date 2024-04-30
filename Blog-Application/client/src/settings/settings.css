@@ -1,0 +1,184 @@
+.settings
+{
+    display: flex;
+    height: 100vh;
+    margin-top: 7rem;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+
+}
+.settings-container
+{
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    width: 100%;
+}
+.setting-header
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.update
+{
+    font-size: 3rem;
+    color: rgb(255, 105, 105);
+} 
+.delete
+{
+    color: rgb(255, 105, 105);
+} 
+.pictures
+{
+    float: left;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pictures span
+{
+    font-size: 2rem;
+}
+.images
+{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.images img
+{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25%;
+}
+.images i
+{
+    color: white;
+    border: 2px solid rgb(255, 105, 105);
+    padding: 7px;
+    font-size: 1.5rem;
+    background-color: rgb(255, 105, 105);
+    border-radius: 50%;
+}
+.inputs-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 90%;
+    float: left;
+}
+.username-input
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.username-input span
+{
+    font-size: 1.5rem;
+}
+.username-input input
+{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid gray;
+    width: 100%;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    outline: none;
+
+}
+.username-input input::placeholder
+{
+    font-size: 1rem;
+}
+
+.email-input
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.email-input span
+{
+    font-size: 1.5rem;
+}
+.email-input input
+{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid gray;
+    width: 100%;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    outline: none;
+
+}
+.email-input input::placeholder
+{
+    font-size: 1rem;
+}
+
+.password-input
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.password-input span
+{
+    font-size: 1.5rem;
+}
+.password-input input
+{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid gray;
+    width: 100%;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    outline: none;
+}
+.password-input input::placeholder
+{
+    font-size: 1rem;
+}
+.button-update
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.button-update button
+{
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    border: none;
+    background-color: rgb(48, 166, 126);
+    color: white;
+    border-radius: 6px;
+
+}
+.notification
+{
+    color: green;
+    font-size: 2rem;
+}

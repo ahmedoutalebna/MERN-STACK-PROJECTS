@@ -1,0 +1,44 @@
+.prf-container
+{
+    width: 30rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius:5px;
+}
+.input-container
+{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.input-container input 
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.btn 
+{
+    border: none;
+    padding: 1rem;
+}button
+.btn button 
+{
+    padding: .5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    background-color: dimgray;
+    color: white;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
