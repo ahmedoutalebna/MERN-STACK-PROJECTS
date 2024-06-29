@@ -1,0 +1,75 @@
+.header-container
+{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    background-color: white;
+    margin: 2rem auto;
+    border-radius: 20px;
+
+}
+.title-image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.title-image img
+{
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+    object-position: cover;
+}
+.title-image h1
+{
+    color: rgb(0, 191, 255);
+    font-size: 3rem;
+}
+.user-profile
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+
+}
+
+.user-profile:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.user-profile img 
+{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+.testing
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.testing button
+{
+    font-size: 12px;
+    text-decoration: underline;
+    color: rgb(10, 105, 137);
+    border: none;
+    background-color: transparent;
+}
+.testing button:hover
+{
+    cursor: pointer;
+}
+.inactiveUser
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+html, body
+{
+    background-color: rgb(0, 200, 255);
+    margin: 0;
+    padding: 0;
+    font-family: "Tajawal", sans-serif;
+    font-style: normal;
+}
+
+h4, span
+{
+    margin: 0;
+    padding: 0;
+}
+.form-card-container
+{
+    display: flex;
+}
